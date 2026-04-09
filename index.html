@@ -8,6 +8,180 @@
 </head>
 
 <body>
+    <header class="bg-[#0c3c78] p-4 flex flex-wrap justify-between items-center fixed top-0 w-full z-50">
+        <div class="flex items-center">
+            <img src="img/Logo-Wallet.png" alt="Logo" class="w-[2.4rem] h-[2.4rem] rounded-[50%]"/>
+            <h1 class="text-[#f5f8fc] text-[.85rem] font-bold p-[0.5rem]">Welcome to Wallet</h1>
+        </div>
+
+        <nav>
+            <ul class="flex flex-wrap bg-[#0c3c78] gap-2">
+                <button class=" bg-[#f5f8fc] font-bold text-[#000000] border border-solid rounded-3xl px-3 py-1 text-sm hover:bg-[#0c3c78] hover:border-s hover:text-white hover:font-bold hover:rounded-3xl">Home</button>
+                <button class=" bg-[#f5f8fc] font-bold text-[#000000] border border-solid rounded-3xl px-3 py-1 text-sm hover:bg-[#0c3c78] hover:border-s hover:text-white hover:font-bold hover:rounded-3xl">Features</button>
+                <button class=" bg-[#f5f8fc] font-bold text-[#000000] border border-solid rounded-3xl px-3 py-1 text-sm hover:bg-[#0c3c78] hover:border-s hover:text-white hover:font-bold hover:rounded-3xl">Why Wallet?</button>
+                <button class=" bg-[#f5f8fc] font-bold text-[#000000] border border-solid rounded-3xl px-3 py-1 text-sm hover:bg-[#0c3c78] hover:border-s hover:text-white hover:font-bold hover:rounded-3xl">Pricing</button>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="flex flex-col md:flex-row items-center justify-items-center p-12 gap-16 min-h-dvh">
+            <div class="max-w-[31.25rem] text-center md:text-left">
+                <h1 class="text-[2rem] md:text-[3rem] text-[#3b6fd8] mb-5">Pay smarter. Live better.</h1>
+                <p class="text-[1rem] md:text-[1.25rem] text-[#333] mb-7">A powerful wallet built for speed, security, and everyday convenience.</p>
+
+                <div class="flex gap-4 justify-center md:justify-start">
+                    <button class="bg-[#0c3c78] text-white rounded-3xl px-4 py-2 border-none hover:bg-[#3b6fd8]">Free trial</button>
+                    <button class="bg-[#f5f8fc] text-[#0c3c78] border border-solid rounded-3xl px-4 py-2 hover:bg-[#d87a3b] hover:border-s hover:text-white">Learn more</button>
+                </div>
+            </div>
+
+
+            <div >
+                <img
+                    src="https://images.pexels.com/photos/6406691/pexels-photo-6406691.jpeg"
+                    alt="Wallet-image" class="w-[21.875rem] h-[21.875rem] rounded-[50%] border-solid border-[#e0e7ff] border-[6px] object-cover"
+                />
+            </div>
+        </section>
+
+
+        <section class=" flex flex-col items-center text-center bg-[#f5f8fc]" style="padding: 4rem 2rem;">
+            <div class="text-center mb-8">
+                <h2 class="text-[2rem] md:text-[2.5rem] mb-4">Awesome app features</h2>
+                <p class=" text-[1rem] md:text-[1.1rem] text-[ #555] mb-8">Built for speed, security, and everyday convenience.</p>
+            </div>
+
+            <div class="flex flex-wrap justify-items-center gap-8 p-0 bg-none border-none" >
+                <!-- Feature 1 -->
+                <div class="flex flex-col items-center justify-between bg-[#ffffff] rounded-3xl w-60">
+                    <div class="flex items-center justify-center bg-[#e0e7ff] rounded-[50%] w-28 h-28 text-[3rem]">⚡</div>
+                    <h3 class="text-[1.25rem] mb-4">Fast performance</h3>
+                    <p class="text-[1rem] text-[#555] leading-[1.5] ">Lightning-fast transactions with instant payment processing. Send and receive money in seconds.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="flex flex-col items-center justify-between bg-[#ffffff] rounded-3xl w-60">
+                    <div class="flex items-center justify-center bg-[#e0e7ff] rounded-[50%] w-28 h-28 text-[3rem]">🔒</div>
+                    <h3 class="text-[1.25rem] mb-4">Bank-level security</h3>
+                    <p class="text-[1rem] text-[#555] leading-[1.5]">Protected with 256-bit encryption and biometric authentication for your peace of mind.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="flex flex-col items-center justify-between bg-[#ffffff] rounded-3xl w-60">
+                    <div class="flex items-center justify-center bg-[#e0e7ff] rounded-[50%] w-28 h-28 text-[3rem]">📱</div>
+                    <h3 class="text-[1.25rem] mb-4">Simple & intuitive</h3>
+                    <p class="text-[1rem] text-[#555] leading-[1.5]">Pay bills, split expenses, and manage your money with just a few taps on your phone.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding: 4rem 2rem;">
+            <h2 class="text-[2.5rem] mb-4 text-center">Why choose Wallet?</h2>
+            <p class="text-[1rem] text-[#555] text-center">Seamless payments, bank-grade security, and smart insights all in one app. </p> 
+            <p class="text-[1rem] text-[#555] text-center"> Built to help you manage money faster, safer, and with total confidence.</p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(19rem,1fr))] gap-2 justify-around items-center justify-items-center">
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]" style="padding: .5rem 1rem;">    
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[2px 2px 4px  rgba(0, 0, 0, 0.1)]">🔑</div>
+                    <!-- <img src="https://images.pexels.com/photos/4973899/pexels-photo-4973899.jpeg" alt="encryption"> -->
+                    <p class="text-[1rem] max-w-52">Fast, secure payments with bank-grade encryption</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]" style="padding: .5rem 1rem;">
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[0px 2px 10px  rgba(0, 0, 0, 0.1)]">⚙️</div>
+                    <!-- <img src="https://images.pexels.com/photos/270700/pexels-photo-270700.jpeg" alt="setup"> -->
+                    <p class="text-[1rem] max-w-52">Easy setup and one-touch transfers</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]" style="padding: .5rem 1rem;">
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[2px 2px 4px  rgba(0, 0, 0, 0.1)]">💲</div>
+                    <!-- <img src="https://images.pexels.com/photos/4691476/pexels-photo-4691476.jpeg" alt="fees"> -->
+                    <p class="text-[1rem] max-w-52">Low fees compared to traditional banks</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]" style="padding: .5rem 1rem;">
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[2px 2px 4px  rgba(0, 0, 0, 0.1)]">📉</div>
+                    <!-- <img src="https://images.pexels.com/photos/7947669/pexels-photo-7947669.jpeg" alt="budgeting"> -->
+                    <p class="text-[1rem] max-w-52">Smart budgeting and spending insights</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]" style="padding: .5rem 1rem;">
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[2px 2px 4px  rgba(0, 0, 0, 0.1)]">⏰</div>
+                    <!-- <img src="https://images.pexels.com/photos/193003/pexels-photo-193003.jpeg" alt="notifications"> -->
+                    <p class="text-[1rem] max-w-52">Instant notifications for every transaction</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]" style="padding: .5rem 1rem;">
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[2px 2px 4px  rgba(0, 0, 0, 0.1)]">🏆</div>
+                    <!-- <img src="https://images.pexels.com/photos/4271696/pexels-photo-4271696.jpeg" alt="rewards"> -->
+                    <p class="text-[1rem] max-w-52">Built-in rewards, cashback, or loyalty perks</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]" style="padding: .5rem 1rem;">
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[2px 2px 4px  rgba(0, 0, 0, 0.1)]">💻</div>
+                    <!-- <img src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg" alt="connection"> -->
+                    <p class="text-[1rem] max-w-52">Works across devices with seamless syncing</p>
+                </div>
+                <div class="flex justify-center items-center gap-4 m-4 max-h-20 rounded-[1.5625rem] shadow-[0 2px 10px  rgba(0, 0, 0, 0.1)]">
+                    <div class="flex justify-center items-center text-[2rem] rounded-[50%] p-8 w-16 h-16 bg-[#e0e7ff] shadow-[2px 2px 4px  rgba(0, 0, 0, 0.1)]">☎️</div>
+                    <!-- <img src="https://images.pexels.com/photos/16789889/pexels-photo-16789889.jpeg" alt="support"> -->
+                    <p class="text-[1rem] max-w-52">24/7 support for wallet issues and fraud protection</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center bg-[#f5f8fc]" style="padding: 5rem 2rem;">
+            <h1 class=" text-[2rem] md:text-[2.5rem] mb-4">Get awesome features, without extra charges</h1>
+            <p class=" text-[1rem] md:text-[1.1rem] text-[#555] mb-8">
+            Start managing your money with ease. Send payments, track spending, and stay organized — all in one simple app.
+            </p>
+
+
+            <div class="flex flex-col sm:flex-rowflex-wrap justify-center gap-8">
+                <div class="bg-[#ffffff] rounded-3xl w-64 flex flex-col items-center justify-between">
+                    <div class="text-[2.5rem] font-bold mb-4">$5</div>
+                    <p class="text-[1rem] text-[#555] leading-[1.5] mb-8">
+                    Perfect for getting started. Send and receive payments, track basic spending, and manage your wallet with ease.
+                    </p>
+                    <div class="bg-[#0c3c78] text-white rounded-[2rem] font-bold hover:transition-all hover:scale-105 hover:translate-[0.2rem]" style="padding: .75rem 2rem;">Starter</div>
+                </div>
+
+
+                <div class="bg-[#ffffff] rounded-3xl w-64 flex flex-col items-center justify-between">
+                    <div class="text-[2.5rem] font-bold mb-4">$39</div>
+
+                        <p class="text-[1rem] text-[#555] leading-[1.5] mb-8">
+                        Unlock advanced features with faster transfers, detailed insights, and smart tools to help you stay in control of your finances.
+                        </p>
+
+                    <div class="bg-[#0c3c78] text-white rounded-[2rem] font-bold hover:transition-all hover:scale-105 hover:translate-[0.2rem]" style="padding: .75rem 2rem;">Pro</div>
+                </div>
+
+
+                <div class="bg-[#ffffff] rounded-3xl w-64 flex flex-col items-center justify-between">
+                    <div class="text-[2.5rem] font-bold text-[#d4a017] mb-4">$99</div>
+                    <p class="text-[1rem] text-[#555] leading-[1.5] mb-8">
+                    Everything in Pro, plus premium support, enhanced security, and powerful features designed for seamless, high-volume transactions.
+                    </p>
+                    <div class="bg-[#d4a017] text-white rounded-[2rem] font-bold hover:transition-all hover:scale-105 hover:translate-[0.2rem]" style="padding: .75rem 2rem;">Gold</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#0c3c78] text-center py-6">
+        <h2 class="text-white font-bold text-xl mb-3">Wallet</h2>
+        <nav>
+            <ul class=" flex m-2 gap-5 justify-center text-white mb-3">
+                <li ><a class="text-[#fff]  hover:text-[#3b6fd8]" href="#">Home</a></li>
+                <li ><a class="text-[#fff]  hover:text-[#3b6fd8]" href="#">Features</a></li>
+                <li ><a class="text-[#fff]  hover:text-[#3b6fd8]" href="#">Pricing</a></li>
+            </ul>
+        </nav>
+        <div class=" flex justify-center gap-4 m-2">
+            <a href="#" class="flex items-center justify-center w-10 h-10 rounded-full border bg-[#3b6fd8] border-white text-[#fff] hover:bg-white hover:text-[#3b6fd8] hover:border-[#3b6fd8]">FB</a>
+            <a href="#" class="flex items-center justify-center w-10 h-10 rounded-full border bg-[#3b6fd8] border-white text-[#fff] hover:bg-white hover:text-[#3b6fd8] hover:border-[#3b6fd8]">IG</a>
+            <a href="#" class="flex items-center justify-center w-10 h-10 rounded-full border bg-[#3b6fd8] border-white text-[#fff] hover:bg-white hover:text-[#3b6fd8] hover:border-[#3b6fd8]">YT</a>
+            <a href="#" class="flex items-center justify-center w-10 h-10 rounded-full border bg-[#3b6fd8] border-white text-[#fff] hover:bg-white hover:text-[#3b6fd8] hover:border-[#3b6fd8]">LI</a>
+        </div>
+        <p class="mt-4 text-[0.6rem] text-white">&copy; 2024 Project SAC. All rights reserved.</p>
+    </footer>
     
 </body>
 </html>
